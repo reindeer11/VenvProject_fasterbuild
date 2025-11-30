@@ -1,6 +1,6 @@
 # Reindeer - Python Virtual Environment Manager
 
-[中文](README-CN.md)
+[中文](README.md)
 Reindeer is a graphical tool designed to simplify the setup and management of Python projects. With a clean and beautiful interface, it makes it easy to create virtual environments, manage dependencies, and execute scripts.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
