@@ -24,7 +24,7 @@ Reindeer - Python 虚拟环境管理器 是一个图形化工具，旨在简化 
 
 ## 环境要求
 
-- Python 3.7+
+- Python 3.11+
 - [uv](https://github.com/astral-sh/uv) - 极速的 Python 包安装和解析工具
 
 ## 安装方法
