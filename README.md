@@ -1,4 +1,4 @@
-# Reindeer - Python 虚拟环境管理器
+# Reindeer - Python 快速启动项目管理器
 
 [English](README-EN.md)
 
