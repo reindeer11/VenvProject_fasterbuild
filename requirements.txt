@@ -1,0 +1,3 @@
+# Reindeer project dependencies
+Pillow>=8.0.0
+# uv tool is recommended to be installed separately as it's the core tool this application manages
