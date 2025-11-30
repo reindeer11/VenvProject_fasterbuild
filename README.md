@@ -2,6 +2,7 @@
 
 Reindeer is a graphical tool designed to simplify the setup and management of Python projects. With a clean and beautiful interface, it makes it easy to create virtual environments, manage dependencies, and execute scripts.
 [CN](README.md)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)
