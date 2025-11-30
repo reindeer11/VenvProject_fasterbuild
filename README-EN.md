@@ -2,7 +2,9 @@
 
 [中文](README.md)
 
-Reindeer is a graphical tool designed to simplify the setup and management of Python projects. With a clean and beautiful interface, it makes it easy to create virtual environments, manage dependencies, and execute scripts.
+Reindeer - Python Virtual Environment Manager is a graphical tool designed to simplify the setup and management of Python projects. It aims to quickly create virtual environments and launch projects, avoiding project conflicts that occur when starting different projects. To address these issues encountered during project development, the author created this tool.
+
+With a clean and beautiful interface, Reindeer can easily create virtual environments, manage dependencies, and execute automated project startup scripts.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
@@ -10,65 +12,42 @@ Reindeer is a graphical tool designed to simplify the setup and management of Py
 
 ## Features
 
+- Automatically detect and install `uv` tool
 - Create Python virtual environments using the ultra-fast `uv` tool
 - Automatically install dependencies from `requirements.txt`
-- Generate Windows batch files for quick project startup
-- Configurable custom package index mirror sources
-- Execute Python scripts within virtual environments
+- Can automatically write default project entry py files
+- Configurable custom package index mirror sources for fast downloading of different dependency packages
+- Generate Windows batch files to activate virtual environments and quickly start projects, avoiding the need to activate virtual environments and then start projects each time
 - Beautiful, modern colored graphical interface
 
 ## Requirements
 
 - Python 3.7+
 - [uv](https://github.com/astral-sh/uv) - An extremely fast Python package installer and resolver
-- Predefined Python environment located at: `G:\cpr\project_to_github\Portable_configuration_environment\Scripts\activate.bat`
 
 ## Installation
 
-1. Ensure the predefined environment exists (configured at `G:\cpr\project_to_github\Portable_configuration_environment`)
+The following method is for members who want to study the source code. Beginners can use the compiled package provided by me.
+
+1. Ensure the predefined environment exists
+   ```
+   uv venv [project name]
+   ```
 2. Clone or download this repository
 3. Install required dependencies (if not already present in the environment):
    ```
-   pip install -r requirements.txt
-   ```
-4. Install uv (if not already present in the environment):
-   ```
-   pip install uv
+   uv pip install -r requirements.txt
    ```
 
 ## Usage
 
-To start the application:
+To run the application:
 
-1. Manually activate the predefined environment:
-
-   ```
-   G:\cpr\project_to_github\Portable_configuration_environment\Scripts\activate.bat
-   ```
-
+1. Activate the virtual environment
 2. Run the application:
    ```
    python run.py
    ```
-
-## Packaging
-
-This project can be packaged into an executable file using PyInstaller.
-
-### Packaging Process
-
-1. Install PyInstaller:
-
-   ```
-   pip install pyinstaller
-   ```
-
-2. Create executable file using the spec file:
-   ```
-   pyinstaller Reindeer.spec
-   ```
-
-This will generate a standalone executable in the `dist` folder.
 
 ## Application Functionality
 
@@ -99,7 +78,7 @@ In the graphical interface:
 
 ## How It Works
 
-Reindeer leverages the ultra-fast [uv](https://github.com/astral-sh/uv) tool to create virtual environments and manage packages. The generated batch files allow consistent activation of environments and execution of scripts.
+Reindeer - Python Virtual Environment Manager leverages the ultra-fast [uv](https://github.com/astral-sh/uv) tool to create virtual environments and manage packages, achieving rapid project startup through a series of environment configuration commands. The generated batch files allow consistent activation of environments and execution of scripts.
 
 All operations are performed within the predefined Python environment, ensuring the correct Python version and dependencies are used.
 
