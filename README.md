@@ -18,6 +18,9 @@ Reindeer - Python 虚拟环境管理器 是一个图形化工具，旨在简化 
 - 可配置自定义包索引镜像源用于快速下载不同依赖包
 - 生成 Windows 批处理文件，启动虚拟环境快速启动项目，避免每次需要启动虚拟环境然后再启动项目。
 - 美观、现代化的彩色图形界面
+项目界面
+<center><img width="977" height="842" alt="image" src="https://github.com/user-attachments/assets/d88dcad5-662f-4ed4-9041-f9f88d2182a7" /></center>
+
 
 ## 环境要求
 
@@ -82,7 +85,7 @@ Reindeer - Python 虚拟环境管理器利用超快的 [uv](https://github.com/a
 所有操作都会在预定义的 Python 环境中执行，确保使用正确的 Python 版本和依赖。
 
 ## 贡献
-
+我们是根技术与智能安全团队，致力于根技术与人工智能安全全链路技术，欢迎大家技术交流
 欢迎贡献！请随时提交 Pull Request。
 
 ## 许可证
