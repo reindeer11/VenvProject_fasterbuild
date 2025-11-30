@@ -6,7 +6,7 @@
 Reindeer - Python 虚拟环境管理器 是一个图形化工具，旨在简化 Python 项目的设置和管理，快速启动虚拟环境然后启动项目。通过简洁美观的界面，它可以轻松创建虚拟环境、管理依赖项并执行自动化启动项目脚本。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)
 
 ## 功能特点
